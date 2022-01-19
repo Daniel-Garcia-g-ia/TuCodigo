@@ -5,3 +5,87 @@
     width: 100%;
     overflow: auto;
   }
+
+  
+.title-curse {
+  text-align: right;
+  margin-top: 50px;
+  margin-right: 200px;
+  color: #0B3C5D;
+}
+
+.title-curse-2 {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 200px;
+  color: #0B3C5D;
+}
+
+.main-card-carusel {
+  width: 400px;
+  background-image: url(img/blob.svg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 100px;
+  opacity: 0.8;
+  
+}
+
+.main-card-body {
+  background-image: url(img/fondo-tarjeta.png);
+  background-position-x: -1rem;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.carousel-item, .carousel-item > img  {
+  height: 600px;
+  overflow: hidden;
+}
+
+
+@media (max-width: 400px) {
+  .main-card {
+      width: 150px;
+      height: 150px;
+      display: flex;
+      flex-direction: row;
+      margin: 0px;
+      padding: 0px;
+  }
+  .main-card:hover {
+      pointer-events: none;
+      position: relative;
+      transform: translateY(20px) scale(1.15);
+      transform-origin: 50% bottom;
+      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .main-card-body {
+      display: none;
+      
+  }
+  .main-blob {
+      width: 0px;
+
+  }
+  
+}
+
+@media (min-width:401px) and (max-width:767px) {
+  .card-size {
+      width: 50%;    
+  }
+ 
+  .main-blob {
+      width: 0px;
+
+  }
+  
+}
+
