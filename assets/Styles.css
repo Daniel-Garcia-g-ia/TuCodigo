@@ -132,3 +132,8 @@
   border: solid 2px #d9b310;
   border-radius: 10px;
 }
+
+a {
+  text-decoration: none !important;
+  color: #4f4f4f !important;
+}
