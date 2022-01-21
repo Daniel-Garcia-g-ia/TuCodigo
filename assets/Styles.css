@@ -1,13 +1,43 @@
 /* Styles required only for the example above */
 .scrollspy-example {
-    position: relative;
-    height: 700px;
-    width: 100%;
-    overflow: auto;
-  }
-  .div-scroll{
+  position: relative;
+  height: 700px;
+  width: 100%;
+  overflow: auto;
+}
+.div-scroll {
+  overflow-y: scroll;
+  height: 300px;
+}
 
-    overflow-y: scroll;
-    height: 300px;
-    
+.ColorBlue1 {
+  background-color: #1d2731;
+}
+.textColorBlue1 {
+  color: #1d2731;
+}
+.ColorBlue2 {
+  background-color: #0b3c5d;
+}
+.textColorBlue2 {
+  color: black;
+}
+.ColorBlue3 {
+  background-color: #328cc1;
+}
+.textColorBlue3 {
+  color: black;
+}
+.ColorYellow {
+  background-color: #d9b310;
+}
+
+.textColorYellow {
+  color: #d9b310;
+}
+.a {
+  color: blue;
+}
+.v {
+  color: green;
 }
