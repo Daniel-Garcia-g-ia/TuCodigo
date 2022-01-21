@@ -41,3 +41,9 @@
 .v {
   color: green;
 }
+
+.main-container {
+  padding: 10px;
+  border: solid 2px #d9b310;
+  border-radius: 10px;
+}

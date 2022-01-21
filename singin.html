@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/img/logo.jpeg" />
+    <title>TuCodigo</title>
+
+<!-- main css -->
+<link rel="stylesheet" href="Styles.css">
+
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+  
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 mt-lg-0" href="#">
+              <img
+                src="assets/img/logo.jpeg"
+                height="50"
+                alt="MDB Logo"
+                loading="lazy"
+              />
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- Navbar dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-mdb-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Cursos
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="#">CSS</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">HTML</a>
+              </li>
+              
+              <li>
+                <a class="dropdown-item" href="#">Javascript</a>
+              </li>
+            </ul>
+          </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Retos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Foros</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+  
+          <!-- Right elements -->
+          <div class="d-flex align-items-center">
+            <!-- Icon -->
+            <a class="text-reset me-3" href="#">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+  
+            <!-- Notifications -->
+            <div class="dropdown">
+              <a
+                class="text-reset me-3 dropdown-toggle hidden-arrow"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fas fa-bell"></i>
+                <span class="badge rounded-pill badge-notification bg-danger"
+                  >1</span
+                >
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Novedades</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Respuestas a tu foro</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">mensajes privados</a>
+                </li>
+              </ul>
+            </div>
+            <!-- Avatar -->
+            <div class="dropdown">
+              <a
+                class="dropdown-toggle d-flex align-items-center hidden-arrow"
+                href="#"
+                id="navbarDropdownMenuAvatar"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <img
+                  src="assets/img/usuario.png"
+                  class="rounded-circle"
+                  height="25"
+                  alt="Black and White Portrait of a Man"
+                  loading="lazy"
+                />
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdownMenuAvatar"
+              >
+                <li>
+                  <a class="dropdown-item" href="#">Perfil</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Configuración</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Salir</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Right elements -->
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    
+    <svg class="container-fluid" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#D9B310" fill-opacity="1" d="M0,128L60,106.7C120,85,240,43,360,37.3C480,32,600,64,720,106.7C840,149,960,203,1080,186.7C1200,171,1320,85,1380,42.7L1440,0L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
+
+        <div class="main-container container d-flex flex-row justify-content-center">
+
+        <div class="d-flex flex-column align-items-center main-form">
+
+            <h1 class="mb-3">Registrate</h1>
+            <div class="form-outline mb-2">
+                <input type="text" id="form12" class="form-control" />
+                <label class="form-label" for="form12">Nombre</label>
+              </div>
+    
+              <div class="form-outline mb-2">
+                <input type="text" id="form12" class="form-control" />
+                <label class="form-label" for="form12">Apellido</label>
+              </div>
+    
+              <div class="form-outline mb-2">
+                <input type="email" id="form12" class="form-control" />
+                <label class="form-label" for="form12">Correo</label>
+              </div>
+    
+              <div class="form-outline mb-2">
+                <input type="password" id="form12" class="form-control" />
+                <label class="form-label" for="form12">Contraseña</label>
+              </div>
+    
+              <div class="form-outline mb-2">
+                <input type="password" id="form12" class="form-control" />
+                <label class="form-label" for="form12">Confirmar contraseña</label>
+              </div>
+
+              <button type="button" class="btn btn-warning">Envíar</button>
+
+          </div>
+
+          <div class="d-flex flex-column align-items-center justify-content-start ms-5 mb-5">
+            <h1 class="mb-3">Iniciar sesion</h1>
+
+            <div class="form-outline mb-2">
+                <input type="password" id="form12" class="form-control" />
+                <label class="form-label" for="form12">Usuario</label>
+              </div>
+    
+              <div class="form-outline mb-2">
+                <input type="password" id="form12" class="form-control" />
+                <label class="form-label" for="form12">Contraseña</label>
+              </div>
+
+              <button type="button" class="btn btn-warning mt-3">Iniciar</button>
+          </div>
+
+         
+
+        </div> 
+
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#D9B310" fill-opacity="1" d="M0,128L60,106.7C120,85,240,43,360,37.3C480,32,600,64,720,106.7C840,149,960,203,1080,186.7C1200,171,1320,85,1380,42.7L1440,0L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+
+       <!-- Footer -->
+<footer class="bg-light text-center">
+    <!-- Grid container -->
+    <div class="container p-4">
+  
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+        
+      </section>
+      <!-- Section: Social media -->
+  
+  
+     
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          distinctio earum repellat quaerat voluptatibus placeat nam,
+          commodi optio pariatur est quia magnam eum harum corrupti dicta,
+          aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+  
+     
+  
+    </div>
+    <!-- Grid container -->
+  
+     <!-- Section: Form -->
+     <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sigue nuestro artículos</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Correo electrónico</label>
+            </div>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-auto">
+  
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary mb-4">
+              Subscribirme
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  
+  </footer>
+  <!-- Footer -->
+
+    <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
+></script>
+</body>
+</html>
