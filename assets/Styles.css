@@ -5,3 +5,9 @@
     width: 100%;
     overflow: auto;
   }
+  .div-scroll{
+
+    overflow-y: scroll;
+    height: 300px;
+    
+}
