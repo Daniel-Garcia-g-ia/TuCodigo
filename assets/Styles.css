@@ -5,3 +5,38 @@
     width: 100%;
     overflow: auto;
   }
+
+.ColorBlue1{
+  background-color: #1D2731;
+  
+}
+.textColorBlue1{
+  color: #1D2731  ;
+
+}
+.ColorBlue2{
+  background-color: #0B3C5D;
+}
+.textColorBlue2{
+  color: black;
+}
+.ColorBlue3{
+  background-color: #328cc1;
+}
+.textColorBlue3{
+  color: black;
+}
+.ColorYellow{
+  background-color: #D9B310;
+}
+
+.textColorYellow{
+  color: #D9B310;
+}
+.a{
+  color: blue  ;
+
+}
+.v{
+  color: green;
+}
