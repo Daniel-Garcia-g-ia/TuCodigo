@@ -5,3 +5,9 @@
     width: 100%;
     overflow: auto;
   }
+
+  .main-container {
+    padding: 10px;
+    border: solid 2px #D9B310;
+    border-radius: 10px;
+}
